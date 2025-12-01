@@ -5,12 +5,10 @@ const links = [
   {
     label: 'Aspirador de pó',
     url: '',
-    description: 'Falou em aspirador portátil?',
   },
   {
     label: 'Liquidificador portátil recarregavel',
     url: '',
-    description: 'Muito prático e portátil',
   },
 ]
 
@@ -43,9 +41,6 @@ function App() {
           >
             <div className="link-texts">
               <p className="link-label">{link.label}</p>
-              {link.description && (
-                <p className="link-description">{link.description}</p>
-              )}
             </div>
           </a>
         ))}
